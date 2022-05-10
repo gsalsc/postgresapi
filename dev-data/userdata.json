@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Ivan",
+    "age": 35,
+    "email": "ivam@mail.com",
+    "city": "Moscow",
+    "password": "123456"
+  },
+  {
+    "name": "Masha",
+    "age": 30,
+    "email": "masha@mail.com",
+    "city": "Moscow",
+    "password": "123456"
+  },
+  {
+    "name": "Max",
+    "age": 42,
+    "email": "max@mail.com",
+    "city": "St. Petersburg",
+    "password": "password"
+  },
+  {
+    "name": "Anna",
+    "age": 22,
+    "email": "anna@mail.com",
+    "city": "Omsk",
+    "password": "pa456word"
+  },
+  {
+    "name": "Kirill",
+    "age": 26,
+    "email": "kirill@mail.com",
+    "city": "Pskov",
+    "password": "pa456word"
+  },
+  {
+    "name": "Andrey",
+    "age": 31,
+    "email": "andrey@mail.com",
+    "city": "Moskow",
+    "password": "pa456w154rd"
+  },
+  {
+    "name": "Yakov",
+    "age": 18,
+    "email": "yakov@mail.com",
+    "city": "Suzdal",
+    "password": "pads456word"
+  },
+  {
+    "name": "Yuriy",
+    "age": 29,
+    "email": "yuriy@mail.com",
+    "city": "Smolensk",
+    "password": "pghjgj6word"
+  },
+  {
+    "name": "Tanya",
+    "age": 26,
+    "email": "tanayaa@mail.com",
+    "city": "Vologda",
+    "password": "sssa456word"
+  },
+  {
+    "name": "Liza",
+    "age": 32,
+    "email": "liza@mail.com",
+    "city": "Omsk",
+    "password": "567qewrt6y"
+  },
+  {
+    "name": "Ruslan",
+    "age": 27,
+    "email": "ruaslan@mail.com",
+    "city": "Omsk",
+    "password": "rfrga456word"
+  },
+  {
+    "name": "Kristina",
+    "age": 29,
+    "email": "kristina@mail.com",
+    "city": "Omsk",
+    "password": "12356word"
+  },
+  {
+    "name": "Oleg",
+    "age": 33,
+    "email": "oleg@mail.com",
+    "city": "Sochi",
+    "password": "pa45hgdssrd"
+  },
+  {
+    "name": "Yulya",
+    "age": 31,
+    "email": "yulya@mail.com",
+    "city": "Krasnodar",
+    "password": "wertdga456word"
+  },
+  {
+    "name": "Pasha",
+    "age": 30,
+    "email": "pasha@mail.com",
+    "city": "Tomsk",
+    "password": "wedetdga46wor7*d"
+  }
+]
