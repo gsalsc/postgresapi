@@ -1,16 +1,21 @@
 const User = require('../models/userModel');
 
-exports.addUser = async (req, res) => {
+exports.signin = async (req, res) => {
   try {
-    const user = await User.create(req.body);
-    res.status(200).json({
+    const newUser = await User.create(req.body);
+
+    //const token = signToken(newUser._id);
+
+    res.status(201).json({
       status: 'success',
-      data: { user },
+      data: {
+        user: newUser,
+      },
     });
   } catch (err) {
     res.status(400).json({
       status: 'fail',
-      message: err,
+      message: err.message,
     });
   }
 };
@@ -40,10 +45,11 @@ exports.getAllUsers = async (req, res) => {
 
 exports.getUser = async (req, res) => {
   try {
-    const users = await User.findAll({ where: { userId: req.id } });
+    //console.log(req.params);
+    const user = await User.findAll({ where: { userId: req.params.id } });
     res.status(200).json({
       status: 'success',
-      data: { users },
+      data: { user },
     });
   } catch (err) {
     res.status(400).json({

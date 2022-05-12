@@ -6,6 +6,11 @@ const sequelize = new Sequelize('appdb', 'app', 'password123', {
 });
 
 const User = sequelize.define('User', {
+  userId: {
+    type: DataTypes.UUID,
+    primaryKey: true,
+    defaultValue: DataTypes.UUIDV4,
+  },
   name: {
     type: DataTypes.STRING,
     allowNull: false,
